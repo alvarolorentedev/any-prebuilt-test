@@ -16,8 +16,8 @@ ajv@^5.1.0:
     json-schema-traverse "^0.3.0"
 
 "any-prebuilt@https://github.com/kanekotic/any-prebuilt":
-  version "0.0.16"
-  resolved "https://github.com/kanekotic/any-prebuilt#06ff4c43d11998566013ecf2e2c21d4813a516a1"
+  version "1.0.0"
+  resolved "https://github.com/kanekotic/any-prebuilt#c17da2e578b0dac6964c29dac3ac436d5f328b57"
   dependencies:
     bluebird "3.5.1"
     decompress-zip "0.3.1"
