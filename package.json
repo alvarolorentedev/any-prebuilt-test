@@ -1,0 +1,23 @@
+{
+  "name": "any-prebuilt-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kanekotic/any-prebuilt-test.git",
+  "author": "kanekotic <alvarojosepl@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "node postinstall.js"
+  },
+  "dependencies": {
+    "any-prebuilt": "https://github.com/kanekotic/any-prebuilt"
+  },
+  "prebuilt": {
+    "arch": "x64",
+    "platform": "osx",
+    "targetDir": "temp",
+    "targetBin": "test/hello.txt",
+    "version": "latest",
+    "user": "kanekotic",
+    "repo": "any-prebuilt-test"
+  }
+}
